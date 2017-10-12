@@ -1,0 +1,11 @@
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/db/UserDao.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/config/SpringConfig.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/controllers/CustomerController.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/config/WebConfig.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/config/SwaggerConfig.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/mapper/UserMapper.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/db/UserDaoImpl.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/config/WebAppInitializer.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/entity/User.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/service/UserServiceImpl.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/service/UserService.java
