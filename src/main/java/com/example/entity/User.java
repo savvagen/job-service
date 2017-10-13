@@ -1,8 +1,13 @@
 package com.example.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jdk.nashorn.internal.ir.annotations.Ignore;
+
 import java.sql.Timestamp;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class User {
 
 
@@ -10,6 +15,7 @@ public class User {
     private String firstname;
     private String lastname;
     private String email;
+    @JsonIgnore
     private String password;
     private String telephone;
     private Timestamp reg_date;

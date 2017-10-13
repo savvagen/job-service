@@ -1,10 +1,6 @@
 package com.example.config;
 
 
-import com.example.db.UserDao;
-import com.example.db.UserDaoImpl;
-import com.example.service.UserService;
-import com.example.service.UserServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -38,8 +34,8 @@ public class SpringConfig {
 
 
     /*@Bean
-    public UserDao getUserDao(){
-       return new UserDaoImpl(getJdbcTemplate());
+    public UserRepo getUserDao(){
+       return new UserRepoImpl(getJdbcTemplate());
     }*/
 
 
