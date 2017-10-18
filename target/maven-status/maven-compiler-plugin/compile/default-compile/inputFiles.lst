@@ -1,7 +1,11 @@
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/controllers/UserController.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/db/UserRepoImpl.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/config/WebSecurityConfig.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/service/UserServiceImpl.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/service/UserService.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/db/StatusRepo.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/entity/Status.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/mapper/StatusMapper.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/config/SpringConfig.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/entity/Greeting.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/config/WebConfig.java
@@ -9,5 +13,10 @@
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/config/SwaggerConfig.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/mapper/UserMapper.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/config/WebAppInitializer.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/service/StatusServiceImpl.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/controllers/StatusController.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/controllers/SignInController.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/service/StatusService.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/entity/User.java
 /home/savva/IdeaProjects/job-service/src/main/java/com/example/controllers/GreetingController.java
+/home/savva/IdeaProjects/job-service/src/main/java/com/example/db/StatusRepoImpl.java

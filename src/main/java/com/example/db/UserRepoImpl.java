@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+
 import java.util.List;
 
 @Repository
@@ -45,9 +46,11 @@ public class UserRepoImpl implements UserRepo {
 
     @Override
     public void update(User user) {
-        String sql  = "UPDATE user SET firstname=?, lastname=?, email=?, password=?, telephone=?, age=? WHERE user_id=?";
-        jdbcTemplate.update(sql, user.getFirstname(), user.getLastname(), user.getEmail(), user.getPassword(), user.getTelephone(), user.getAge(), user.getUser_id());
+        String sql  = "UPDATE user SET firstname=?, lastname=?, email=?, password=?, telephone=?, age=?, status=? WHERE user_id=?";
+        jdbcTemplate.update(sql, user.getFirstname(), user.getLastname(), user.getEmail(), user.getPassword(), user.getTelephone(), user.getAge(), user.getStatus(), user.getUser_id());
     }
+
+
 
 
 }

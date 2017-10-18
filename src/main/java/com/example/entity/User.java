@@ -20,6 +20,7 @@ public class User {
     private String telephone;
     private Timestamp reg_date;
     private int age;
+    private int status;
 
     public User() {
     }
@@ -89,4 +90,15 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+
+
 }

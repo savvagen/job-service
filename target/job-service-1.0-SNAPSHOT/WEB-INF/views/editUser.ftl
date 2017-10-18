@@ -20,6 +20,12 @@
     <input name="telephone" type="text" value="${user.telephone}">
     <p>Age</p>
     <input name="age" type="number" value="${user.age}">
+    <p>Status</p>
+        <select id="status" name="status" value="${user.status}">
+            <#list status as s>
+                <option value="#{s.status_id}">${s.status}</option>
+            </#list>
+        </select>
     <p></p>
     <button type="submit">Update</button>
 </form>

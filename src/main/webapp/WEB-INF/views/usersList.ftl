@@ -17,6 +17,7 @@
         <th>Email</th>
         <th>Telephone</th>
         <th>Age</th>
+        <th>Status</th>
         <th>Actions</th>
     </tr>
 <#list users as user>
@@ -27,6 +28,11 @@
         <td>${user.email}</td>
         <td>${user.telephone}</td>
         <td>${user.age}</td>
+        <td>${user.status}<#--<#if user.status = 1>
+            Online
+        <#elseif user.status = 2>
+            Offline
+        </#if><--></td>
         <td><a href="/user/${user.user_id}">View</a></td>
         <td><a href="/update/${user.user_id}">Update</a></td>
         <td><a href="/delete/${user.user_id}">Delete</a></td>
@@ -38,10 +44,12 @@
                 <button>Delete</button>
             </form>
         </td>-->
+
     </tr>
 </#list>
 </table>
 <p></p>
 <a href="/hello">Back to Home</a>
+<p></p>
 </body>
 </html>
